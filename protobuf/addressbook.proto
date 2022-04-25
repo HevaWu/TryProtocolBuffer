@@ -60,20 +60,20 @@ message ErrorStatus {
 
 // oneof
 
-message SampleMessage {
-  oneof test_oneof {
-    string name = 4;
-    SubMessage sub_message = 9;
-  }
-}
+// message SampleMessage {
+//   oneof test_oneof {
+//     string name = 4;
+//     SubMessage sub_message = 9;
+//   }
+// }
 
 // packages
 
-package foo.bar;
-message Open { ... }
+// package foo.bar;
+// message Open { ... }
 
-message Foo {
-  ... 
-  foo.bar.Open open = 1;
-  ...
-}
+// message Foo {
+//   ... 
+//   foo.bar.Open open = 1;
+//   ...
+// }
