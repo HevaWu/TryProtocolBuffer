@@ -48,3 +48,12 @@ message Result {
   string title = 2;
   repeated string snippets = 3;
 }
+
+// Any types
+
+import "google/protobuf/any.proto";
+
+message ErrorStatus {
+  string message = 1;
+  repeated google.protobuf.Any details = 2;
+}
