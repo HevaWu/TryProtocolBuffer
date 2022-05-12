@@ -1,0 +1,13 @@
+{
+    "protoc": {
+        // "path": "./protobuf",
+        "compile_on_save": false,
+        "options": [
+            // "--proto_path=$HOME/Project/protobuf.dart/protoc_plugin/bin",
+            // "--proto_path=protos/v2",
+            "--proto_path=${workspaceRoot}/protobuf",
+            // "--proto_path=${env.GOPATH}/src",
+            "--dart_out=/protobuf/gen/dart/out/"
+        ]
+    }
+}
